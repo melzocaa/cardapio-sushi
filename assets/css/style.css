@@ -1,144 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     color: #222222;
     margin: 0;
-    font-family: "Barlow";
+    font-family: "Barlow", sans-serif;
     width: 100%;
-}  
+    font-size: 100%; 
+}
 
-a{
+a {
     text-decoration: none;
     color: #222222;
 }
 
-a:hover{
+a:hover {
     color: #ca3c3f;
 }
 
-.header{
+.header {
     width: auto;
     text-align: center;
     padding: 0;
-    margin-top: 80px;  
+    margin-top: 5rem; 
 }
 
-.menu{
+.menu {
     width: auto;
-    text-align: center;    
-    font-weight: bold;    
+    text-align: center;
+    font-weight: bold;
 }
 
-.menu-links{
-    list-style: none; 
-    padding: 0;   
+.menu-links {
+    list-style: none;
+    padding: 0;
 }
 
-.menu-links li{
+.menu-links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0 1.25rem; 
 }
 
-.banner{
+.banner {
     width: 100%;
     text-align: center;
 }
 
-.banner p{
-    font-size: 40px;
+.banner p {
+    font-size: 2.5rem; 
     text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem; 
+    padding-right: 6.25rem; 
 }
 
-.banner img{
+.banner img {
     width: 90%;
 }
 
-.coluna{
+.coluna {
     width: 45%;
     display: inline-block;
     vertical-align: middle;
 }
 
-.botao{
-    border: 1px solid #333333;
-    border-radius: 40px;
-    padding: 20px;
-    font-size: 20px;
+.botao {
+    border: 0.0625rem solid #333333; 
+    border-radius: 2.5rem; 
+    padding: 1.25rem; 
+    font-size: 1.25rem; 
 }
 
-.cardapio{
+.cardapio {
     box-sizing: border-box;
-    border-top: 1px dashed #999999;
+    border-top: 0.0625rem dashed #999999; 
     width: 100%;
     margin: auto;
-    max-width: 700px;
+    max-width: 43.75rem; 
     text-align: center;
-    margin-top: 100px;
-    padding: 50px 15px 10px 15px;
+    margin-top: 6.25rem; 
+    padding: 3.125rem 0.9375rem 0.625rem 0.9375rem; 
 }
 
-.cardapio-categoria{
+.cardapio-categoria {
     text-align: left;
     color: #ca3c3f;
-    font-size: 22px;
-    margin-top: 50px;
+    font-size: 1.375rem; 
+    margin-top: 3.125rem; 
 }
 
-.cardapio-item{
-    padding-top: 20px;
-    text-align: left; 
-    width: 100%;   
+.cardapio-item {
+    padding-top: 1.25rem; 
+    text-align: left;
+    width: 100%;
 }
 
-.cardapio-nome{
+.cardapio-nome {
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.125rem; 
     font-weight: bold;
 }
-.cardapio-preco{        
-    font-size: 18px;    
+
+.cardapio-preco {
+    font-size: 1.125rem; 
     float: right;
     color: #ca3c3f;
 }
-.cardapio-descricao{
-    font-size: 12px;
+
+.cardapio-descricao {
+    font-size: 0.75rem; 
     color: #999999;
 }
 
-footer{
-    margin-top: 100px;
+footer {
+    margin-top: 6.25rem;
     width: auto;
     text-align: center;
-    padding: 50px;
-    font-size: 14px;
+    padding: 3.125rem; 
+    font-size: 0.875rem; 
     color: #fff;
     background-color: #333333;
 }
 
-footer p{
-    margin: 3px;
+footer p {
+    margin: 0.1875rem; 
 }
 
-.link-whatsapp img{
-    width: 40px;
+.link-whatsapp img {
+    width: 2.5rem; 
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 1.25rem; 
+    bottom: 1.25rem; 
 }
 
-@media (max-width: 900px){
-    .coluna{
+@media (max-width: 56.25em) { 
+    .coluna {
         width: 100%;
         vertical-align: middle;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
-    .banner p{
-    font-size: 26px;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    .banner p {
+        font-size: 1.625rem; 
+        text-align: center;
+        padding-left: 3.125rem; 
+        padding-right: 3.125rem; 
     }
 }
